@@ -13,10 +13,12 @@ El objetivo principal fue comprender el funcionamiento de herramientas modernas 
 ## Tecnologías Utilizadas
 
 * Docker
+* Docker Compose
 * GitHub
-* Render
+* Render Cloud Platform
 * HTML
 * Nginx
+* MySQL
 * Git
 * CI/CD
 
@@ -26,13 +28,11 @@ El objetivo principal fue comprender el funcionamiento de herramientas modernas 
 
 Usuario
 ↓
-Render Cloud Platform
+Cloud Platform
 ↓
-Contenedor Docker
-↓
-Servidor Nginx
-↓
-Aplicación Web HTML
+Docker Compose
+├── Contenedor Web (Nginx)
+└── Contenedor Base de Datos (MySQL)
 
 ---
 
@@ -49,6 +49,7 @@ Aplicación Web HTML
 ## Repositorio GitHub
 
 Repositorio del proyecto:
+
 https://github.com/Julia-fk/devops-final-project
 
 ---
@@ -56,6 +57,7 @@ https://github.com/Julia-fk/devops-final-project
 ## Aplicación Desplegada
 
 URL del proyecto en producción:
+
 https://devops-final-project-hkv8.onrender.com
 
 ---
@@ -68,6 +70,9 @@ https://devops-final-project-hkv8.onrender.com
 * Despliegue automático
 * Infraestructura cloud
 * CI/CD automático
+* Arquitectura multicontenedor
+* Docker Compose implementado
+* Servicio de base de datos MySQL
 
 ---
 
